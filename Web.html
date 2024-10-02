@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TestTask</title>
+<meta charset="UTF-8">
+    
+    <style>
+        table {
+            text-align: center; /*Выставляет текст в ячейках по центру*/
+            table-layout: fixed;
+            border: 1px solid grey; /*Задаёт размер и цвет границ между ячейками*/
+            border-collapse: collapse; /*Убирает промежутки между ячейкам*/
+            width: 800px; /*Задаёт ширину таблицы */
+            margin: auto; /*Выравнивает таблицу по центру*/
+        }
+        th {
+            border: 1px solid black; 
+        }
+        td {
+            background-color: gray;
+            border: 1px solid black;
+        }
+        #tdd {
+            background-color: yellow;
+            border: 1px solid grey;
+        }
+        #Sort{
+            margin-left: 900px;
+            height:50px;
+            width:100px;
+
+        }
+        #Group{
+            margin-left: 900px;
+            height:50px;
+            width:100px;
+        }
+    
+    </style>
+</head>
+
+ <body>
+    <table id = "SortTabel">
+        <tr>
+            <tr>
+                <td id = tdd>A</td>
+                <td id = tdd>B</td>
+                <td id = tdd>C</td>
+                <td id = tdd>D</td>
+                <td id = tdd>E</td>
+                </tr>
+                <tr>
+                        <td id = tdd> <input type = "text" size="8"> </td> 
+                        <td id = tdd> <input type = "text" size="8"> </td> 
+                        <td id = tdd> <input type = "text" size="8"> </td> 
+                        <td id = tdd> <input type = "text" size="8"> </td> 
+                        <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+                <tr>
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td> 
+                    <td id = tdd> <input type = "text" size="8"> </td>
+                </tr>
+
+        </table>
+        <button onclick = "GroupClic(this)" id = Group> Сгруппировать </button>
+        <script src = "TestTask.js"></script>
+</body>
+<body> <button onclick = "SortClic()" id = Sort> Соритровать столбец А </button> </body>
+</html>
