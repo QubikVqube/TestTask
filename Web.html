@@ -15,27 +15,39 @@
         }
         th {
             border: 1px solid black; 
+            width: 16px;
         }
         td {
             background-color: gray;
             border: 1px solid black;
+            height: 16px
+        }
+        #groupedTable{
+            table-layout: fixed;
+            width: 800px;
         }
         #tdd {
             background-color: yellow;
             border: 1px solid grey;
+            
         }
-        #Sort{
-            margin-left: 900px;
+        #buttons{
+            width: 103%;
+            text-align: center;
+        }
+        .butt{
             height:50px;
-            width:100px;
-
+            width:200px;
+            display: inline-flex;
         }
         #Group{
             margin-left: 900px;
             height:50px;
             width:100px;
         }
-    
+        select{
+            margin-left: 890px;
+        }
     </style>
 </head>
 
@@ -124,5 +136,12 @@
         <button onclick = "GroupClic(this)" id = Group> Сгруппировать </button>
         <script src = "TestTask.js"></script>
 </body>
-<body> <button onclick = "SortClic()" id = Sort> Соритровать столбец А </button> </body>
+<body>  
+    <div id = buttons>
+        <div class="butt"> <button onclick = "Sort_A()" class = SortA> Соритровать столбец А </button> </div>
+        <div class="butt"> <button onclick = "Sort_B()" class = SortB> Соритровать столбец B </button> </div>
+        <div class="butt"> <button onclick = "Sort_D()" class = SortC> Соритровать столбец D </button> </div>
+        <div class="butt"> <button onclick = "Sort_E()" class = SortD> Соритровать столбец E </button> </div>
+    </div>
+    </body>
 </html>
